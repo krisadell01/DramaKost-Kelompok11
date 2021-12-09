@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.fs-1 {
+    font-size: 3rem !important;
+}
+
+.fs-2 {
+    font-size: 2rem !important;
+}
+
+.fs-3 {
+    font-size: 1.5rem !important;
+}
+
+.fs-4 {
+    font-size: 1rem !important;
+}
+
+.fs-5 {
+    font-size: 0.8rem !important;
+}
+
+.fs-6 {
+    font-size: 0.6rem !important;
+}
+
+.hero {
+    background: linear-gradient(to right, #f0bb62, #F4EEA9);
+}
+
+img.rounded-circle {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
