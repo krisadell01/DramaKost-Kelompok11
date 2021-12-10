@@ -1,10 +1,19 @@
+<? php
+session_start();
+if(!isset($_SESSION['admin']))
+{
+  header("Location: http://localhost/DRAMAKOST/login.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DramaKost - Contact Us</title>
+    <title>Admin - Insert Pos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="mybootstrap.css">
 </head>
@@ -49,7 +58,7 @@
   <main class="content bg-light container pt-5 pb-5">
     <div class="row justify-content-center">
       <form action="http://localhost/DramaKost/admin/php/insert_post.php" method="POST" class="col-md-7">
-          <input name="author" type="hidden" value="1">
+          <input name="admin" type="hidden" value="<?php echo $_SESSION['admin']?>">
           <div class="form-group row">
             <label for="title" class="col-sm-3 col-form-label">Title</label><br>
             <div class="col-sm-10">
@@ -71,6 +80,12 @@
                 <option value="Kontrakan">Kontrakan</option>
                 <option value="Apartemen">Apartemen</option>
               </datalist>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="price" class="col-sm-3 col-form-label">Price</label><br>
+            <div class="col-sm-10">
+              <input type="number" name="price" class="form-control" id="price" required>
             </div>
           </div>
           <div class="form-group row">
