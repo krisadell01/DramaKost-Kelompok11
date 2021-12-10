@@ -22,13 +22,13 @@
           <a class="nav-link font-weight-bold" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Link</a>
+          <a class="nav-link font-weight-bold" href="about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Link</a>
+          <a class="nav-link font-weight-bold" href=contact.html#">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Link</a>
+          <a class="nav-link font-weight-bold" href="#">Privacy Policy</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
