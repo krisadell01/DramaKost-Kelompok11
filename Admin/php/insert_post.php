@@ -36,6 +36,6 @@ foreach($category_array as $em)
     mysqli_query($db, $query);
 }
 
-header('Location: http://localhost/DRAMAKOST/admin/insert_post.html')
+header('Location: http://localhost/DRAMAKOST/admin/insert_post.php')
 
 ?>
