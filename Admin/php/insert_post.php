@@ -12,7 +12,7 @@ $SEO = $_POST['SEO'];
 $content = $_POST['content'];
 $Category = $_POST['Category'];
 $admin = $_POST['admin'];
-$price = $_POSTT['price'];
+$price = $_POST['price'];
 
 $db=mysqli_connect("localhost", "Krisadell", "Kr1s4nd1_03", "dramakost");
 $query = "INSERT INTO post (title, SEO_title, content, admin, price)
