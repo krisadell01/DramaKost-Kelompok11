@@ -20,6 +20,7 @@ if(!isset($_SESSION['admin']))
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="asset/l.png" width="70" length="20">
       <a class="navbar-brand fs-3 font-weight-bold" href="#">DramaKost</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@ if(!isset($_SESSION['admin']))
           <a class="nav-link font-weight-bold" href="../contact.html">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="#">Privacy Policy</a>
+          <a class="nav-link font-weight-bold" href="../privacypolicy.html">Privacy Policy</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -114,18 +115,16 @@ if(!isset($_SESSION['admin']))
     <div class="container text-center">
       <h2 class="font-weight-bold">DramaKost</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lectus at metus finibus iaculis. 
-        Integer gravida nec eros et semper. Nam et ex iaculis, ornare urna a, iaculis neque. Praesent et tortor vitae 
-        nisl sodales pharetra. Nulla ac metus erat. Proin quis consequat nunc. Maecenas iaculis ipsum vel iaculis consequat. 
-        Maecenas convallis convallis ex, in convallis mi sollicitudin consequat. Aliquam at dolor sit amet eros dictum 
-        maximus eget vel enim. Donec fringilla tellus quis lacus accumsan rhoncus sit amet vitae ipsum. Quisque erat nisl, 
-        maximus eu iaculis ornare, vehicula id metus. Praesent nec viverra metus, a mattis sapien. Maecenas eget metus 
-        rutrum, ornare ipsum eget, maximus diam. Pellentesque id neque id odio tempor venenatis. Vestibulum nulla risus, 
-        lacinia eu orci aliquam, congue eleifend arcu.
+        DramaKost merupakan terobosan terbaru yang memanfaatkan teknologi untuk perkembangan pencarian kos menjadi lebih mudah 
+        sehingga memudahkan calon anak kos untuk mencari informasi kost di sekitar Dramaga.  
+        Saat ini kami memiliki lebih dari 50 kamar kos yang tersebar di sekitar wilayah Dramaga.
+        Berbagai informasi telah diberikan untuk memudahkan dalam memilih hunian nyaman
+        serta sesuai dengan keinginan pengguna. Dapatkan juga berbagai promo dan voucher dari para pemilik kost yang
+        bisa dilihat pada masing-masing deskripsi kost.
       </p>
       <div class="d-flex flex-wrap justify-content-center">
         <a class="bagde badge-success fs-4 p-2 m-1" href="../about.html">About us</a>
-        <a class="bagde badge-success fs-4 p-2 m-1" href="">Privacy policy</a>
+        <a class="bagde badge-success fs-4 p-2 m-1" href="../privacypolicy.html">Privacy policy</a>
         <a class="bagde badge-success fs-4 p-2 m-1" href="../contact.html">Contact us</a>
       </div>
     </div>
