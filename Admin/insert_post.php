@@ -35,7 +35,7 @@ if(!isset($_SESSION['admin']))
           <a class="nav-link font-weight-bold" href="../about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="../contact.html">Contact Us</a>
+          <a class="nav-link font-weight-bold" href="http://localhost/DRAMAKOST/crud/listkkost.php">Edit Post</a>
         </li>
         <li class="nav-item">
           <a class="nav-link font-weight-bold" href="../privacypolicy.html">Privacy Policy</a>
