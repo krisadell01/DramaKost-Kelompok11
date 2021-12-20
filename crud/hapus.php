@@ -2,7 +2,7 @@
 
 session_start();
 
-    $db=mysqli_connect("localhost", "dzikri", "ananda68", "dramakost");
+    $db=mysqli_connect("localhost", "Krisadell", "Kr1s4nd1_03", "dramakost");
     $username = mysqli_real_escape_string($db, $_POST['username']);
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $pass = mysqli_real_escape_string($db, $_POST['password']);
