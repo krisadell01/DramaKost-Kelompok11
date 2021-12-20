@@ -28,7 +28,7 @@
  	<tbody> 
  
  	<?php 
-	$db=mysqli_connect("localhost", "dzikri", "ananda68", "dramakost");
+	$db=mysqli_connect("localhost", "Krisadell", "Kr1s4nd1_03", "dramakost");
  	$query = "SELECT title,price,id,content FROM post";
 	$hasil = mysqli_query($db, $query);  
   
