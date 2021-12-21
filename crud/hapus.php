@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
     $db=mysqli_connect("localhost", "Krisadell", "Kr1s4nd1_03", "dramakost");
@@ -20,9 +19,7 @@ session_start();
     }
 
 ?>
-
 <?php
-
 
 if( isset($_GET['id']) ){
 
@@ -43,5 +40,4 @@ if( isset($_GET['id']) ){
 } else {
     die("akses dilarang...");
 }
-
 ?>
