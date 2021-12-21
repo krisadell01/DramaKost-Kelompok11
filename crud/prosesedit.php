@@ -7,8 +7,9 @@ if (isset($_POST['Edit'])) {
  		$title = $_POST['title'];
  		$price = $_POST['price'];
  		$content = $_POST['content'];
+		$SEO_title = $_POST['SEO_title'];
  	
- 	$sql = "UPDATE post SET title='$title', price='$price',id='$id', content='$content' WHERE id = '$id'";
+ 	$sql = "UPDATE post SET title='$title', price='$price',id='$id', content='$content',SEO_title='$SEO_title' WHERE id = '$id'";
  	$query = mysqli_query($db,$sql);
 
  		if ($query == TRUE) {
