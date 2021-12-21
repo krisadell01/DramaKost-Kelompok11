@@ -28,7 +28,12 @@ if (isset($_GET['id'])) {
         <td>Content</td>
         <td><input type="text" name="content" value="<?php echo $kos['content']?>">
         </td>         
-      </tr> 
+      </tr>
+      <tr>
+        <td>SEO Title</td>
+        <td><input type="text" name="SEO_title" value="<?php echo $kos['SEO_title']?>">
+        </td>         
+      </tr>
       <tr>
         <td>Simpan</td>
         <td><input type="submit" value="Simpan" name="Edit"></td>
