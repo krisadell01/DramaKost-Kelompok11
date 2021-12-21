@@ -132,8 +132,8 @@ if(!isset($_SESSION['admin']))
     <div class="container text-center">
       <h2 class="font-weight-bold">DramaKost</h2>
       <p>
-        DramaKost merupakan terobosan terbaru yang memanfaatkan teknologi untuk perkembangan pencarian kos menjadi lebih mudah 
-        sehingga memudahkan calon anak kos untuk mencari informasi kost di sekitar Dramaga.  
+        DramaKost merupakan terobosan web terbaru yang memanfaatkan teknologi untuk perkembangan pencarian kost menjadi lebih mudah 
+        sehingga memudahkan calon anak kost untuk mencari informasi kost di sekitar Dramaga.  
         Saat ini kami memiliki lebih dari 50 kamar kos yang tersebar di sekitar wilayah Dramaga.
         Berbagai informasi telah diberikan untuk memudahkan dalam memilih hunian nyaman
         serta sesuai dengan keinginan pengguna. Dapatkan juga berbagai promo dan voucher dari para pemilik kost yang
