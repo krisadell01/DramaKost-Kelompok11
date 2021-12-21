@@ -42,7 +42,7 @@
 		echo "<td>".$kos['content']."</td>";  	 	
  
  	 	echo "<td>"; 
- 	 	echo "<a href='formedit2.php?id=".$kos['id']."'>Edit</a>"; 
+ 	 	echo "<a href='formedit.php?id=".$kos['id']."'>Edit</a>"; 
  	 	echo "</td>"; 
  	 	
  	 	echo "<td>"; 
