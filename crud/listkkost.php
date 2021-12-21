@@ -7,8 +7,9 @@
  	<title>Dramakost</title> 
 </head> 
  
-<body>  	<header> 
- 	<h3>Daftar Kost/Kontrakan/Apartment</h3> 
+<body>  	
+	<header> 
+ 		<h3>Daftar Kost/Kontrakan/Apartment</h3> 
  	</header> 
  
  	<nav> 
@@ -46,10 +47,12 @@
  	 	echo "</td>"; 
  
  	 	echo "<td>"; 
- 	 	echo "<a href='hapus.php?id=".$kos['id']."'>Hapus</a>";  	 	echo "</td>"; 
+ 	 	echo "<a href='hapus.php?id=".$kos['id']."'>Hapus</a>";  	 	
+		echo "</td>"; 
  
  	 	echo "</tr>"; 
- 	 	}  	?> 
+ 	 	}  	
+		?> 
  
  	</tbody> 
  	</table> 
